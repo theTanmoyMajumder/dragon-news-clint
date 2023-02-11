@@ -13,6 +13,7 @@ const Main = () => {
             <Container>
                 <Row>
                     <Col lg="2" className='d-none d-lg-block' >
+                        {/* "d-none" means display none, and it is for not to show this on left side when it on small device. "d-lg-block" means display-large-block and it is for to show stable position in large device */}
                         <LeftSideNav />
                     </Col>
                     <Col lg="7">
